@@ -1706,7 +1706,7 @@ class Node(Network):
         layer.nodes.remove(self.Inn)
         layer.nodes.add(self)
         delattr(self, 'OutG')
-        return ('Wooho! Elis tö e nou bäst din snygge fan!')
+        return ('Wooho!')
 
     def GetPos(self):
         return self.net.layers[self.layer].x, self.y
